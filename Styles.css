@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5892f6;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgb(237, 236, 234);
+    padding: 2px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+button {
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: rgb(27, 6, 6);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #3b0aa4;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #990dab;
+}
+
+
+input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #1487aa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 6px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #986060;
+    text-align: left;
+}
+
+.hidden {
+    display:null;
+}

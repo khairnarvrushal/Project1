@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel File Display</title>
+    <link rel="stylesheet" href="Styles.css">
+     <script lang="javascript" src="https://cdn.sheetjs.com/xlsx-0.20.2/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1> Excel File</h1>
+        <input type="file" id="fileInput" accept=".xlsx, .xls" />
+        <button id="displayButton" disabled>Display Excel Data</button>
+        <table id="dataTable" class="hidden">
+            <thead id="tableHeader"></thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
